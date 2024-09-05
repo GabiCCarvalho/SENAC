@@ -1,0 +1,70 @@
+.pesquisa input {
+  width: 500px;
+  background-image: url(IMG/lupa\ 4.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: right; /* lateral*/
+  padding-left: 30px;
+  height: 50px;
+  border: 2px solid rgb(248,157,20)
+}
+
+header {
+  background-color: white;
+  height: 150px;
+}
+
+header img {
+position: absolute;
+margin-left: 30px;
+}
+  
+header form {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 150px;
+}
+
+input {
+border-radius: 20px;
+border: 3px solid rgb(248, 157, 20);
+height: 30px;
+padding-left: 15px;
+}
+
+
+
+#compra {
+display: flex;
+align-items: center;
+width: 1250px;
+gap: 40px;
+}
+  
+th, td {
+text-align: center;
+}
+  
+#endereço {
+display: flex;
+align-items: right;
+}
+
+#frete {
+text-align: left;
+}
+
+#Prazos {
+width: 50%;
+margin-top: 20px;
+
+}
+
+#Carrinho {
+text-align: center;
+}
+
+#Produto{
+width: 75%;
+}

@@ -1,8 +1,9 @@
+!DOCTYPE html>
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pag.Compra</title>
+        <title>Login</title>
 
         <link rel="stylesheet" href="style.css">
         
@@ -12,13 +13,13 @@
     <body>
         <!-- Cabeçalho -->
         <header>
-            <div id="topo">
+            <div class="topo">
                 <img src="IMG/Logo2.png" alt="50">
                 <form class="pesquisa">
                     <label for="pesquisa"></label>
                     <input type="search" id="pesquisa" name="pesquisa" placeholder="Pesquisa"><br>
                 </form>
-                <div id="inicio">
+                <div class="inicio">
                         <img src="IMG/loja-de-animais-de-estimacao.png" height="30">
                         <img src="IMG/user.png" height="30">
                         
@@ -40,43 +41,12 @@
         </header>
         <!-- Cabeçalho -->
 
+        <br><br><br>
+
         <main>
-                <h2 id="Carrinho">Carrinho de compras</h2> <br> <br>
-            <fieldset id="Produto">
-                <div id="compra">
-                    <img src="img/ração1.png" alt="ração" width="320px"> 
-                    <h3>Ração Pedigree Equilíbrio Natural para Cães Adultos de Raças Médias e Grandes</h3>
 
-                    <table id="tabela">
-                        <tr style="height: 50px;">
-                            <th>Preço</th>
-                            <th style="width: 300px;">Qtd</th>
-                            <th>Subtotal</th>
-                        </tr> 
-                        <tr>
-                            <td>R$45,00</td>
-                            <td>1</td>
-                            <td>R$45,00</td>
-                        </tr>
-                    </table> 
-                </div>
-            </fieldset>
-
-                <div id="frete">
-                        <h2>Frete e Prazo</h2>
-                        <label for="CEP">CEP</label> 
-                        <input type="search" name="CEP" id="CEP" placeholder="CEP">
-                </div>
-
-                <fieldset id="Prazos">
-                    <legend>Prazos</legend>
-                    <input type="radio" id="Economy" name="Econômica" value="Econômico">
-                    <label for="turno2">Econômico</label><br> <br>
-
-                    <input type="radio" id="Express" name="Expresso" value="Expresso">
-                    <label for="turno2">Expresso</label>
-                </div>
-                
+        </main>
+    
         <!-- Rodapé -->
         <footer>
             <div class="pata">
@@ -100,6 +70,65 @@
             <p class="end">
                 endereço... 
             </p>
-        </main>
     </body>  
 </html>
+
+
+=========================
+
+
+/* Cabeçalho */
+.topo {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  gap: 20%;
+  padding: 0px 10px;
+ 
+}
+
+.inicio {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.pesquisa input {
+  width: 500px;
+  background-image: url(IMG/lupa\ 4.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: right; 
+  padding-left: 30px;
+  height: 50px;
+  border: 2px solid rgb(248, 157, 20);
+   border-radius: 30px ;
+  
+}
+
+.acesso {
+
+  margin: 0;
+  
+}
+
+nav {
+  background-color: rgb(5, 175,242);
+  padding: 10px;
+  margin-top: 3cqi;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px; 
+}
+
+
+nav ul {
+  list-style-type: none;
+
+}
